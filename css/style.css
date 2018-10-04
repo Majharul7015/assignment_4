@@ -10,7 +10,7 @@
 
 }
 .wrapper{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 
 }
@@ -83,7 +83,7 @@ font-weight: bold;
 
 .service{
 	overflow: hidden;
-	min-height: 400px;
+	/* min-height: 400px; */
 	background-color: #121B2A;
 	color: #fff;
 	padding: 100px 0;
@@ -115,33 +115,40 @@ font-weight: bold;
 }
 .footer{
 	overflow: hidden;
-	min-height:100px;
+	/* min-height:100px; */
 	background-color: #121B2A;
 	color: #fff;
 	border-top: 1px solid black;
-	margin-top: 30px;
+	padding-top: 30px;
 }
 .footer_nav{
-	width: 60%;
+	/* width: 60%; */
 	float: left;
 }
 .footer_nav ul{
 	list-style: none;
+	float: right;
+
 }
 .footer_nav ul li{
 	float: left;
-	padding-right:18px;
-	margin-top: 20px;
+	padding-right:15px;
+	/* margin-top: 20px; */
 
 }
 .footer_nav ul a{
 	text-decoration: none;
+	color: white;
 }
 .footer_nav p{
-	padding: 10px;
+	padding-top: 10px;
 	clear: both;
+	text-align: center;
 }
 .footer_logo{
+	width: 30%;
+}
+.footerlogo img{
 	width: 30%;
 	float: right;
 }
